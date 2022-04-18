@@ -1,0 +1,170 @@
+
+
+@media screen and (max-width:770px){
+    .hide-tab{
+        visibility: hidden;
+        position: absolute;
+    }
+    .grid-width30{
+        width: 45vw !important;
+    }
+}
+@media screen and (max-width:450px){
+    .hide-mob{
+        visibility: hidden;
+        position: absolute;
+    }
+    .grid-width30{
+        width: 90vw !important;
+    }
+}
+
+.home-banner-content{
+    text-align: right;
+    margin-top: 80px;
+}
+
+.home-banner-content h1{
+    font-size: 102px !important;
+    font-size: 102px;
+    line-height: 124px;
+}
+
+.home-banner-content p{
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px; 
+    line-height: 71px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.home-body{
+    min-height: 650px;
+    display: flex;
+}
+
+.home-body img{
+    max-width: 100%;
+}
+
+
+.slider{
+    height: inherit;
+}
+
+.slider-img{
+    height: 80vh;
+    width: 45vw !important;
+    max-width: 450px;
+}
+
+.slick-track{
+    display: flex;
+    justify-content: center;
+    width: 90vw !important;
+    transform: translate3d(0px, 0px, 0px) !important;
+}
+
+.slick-slide.slick-cloned{
+    visibility: hidden;
+    position: absolute;
+}
+
+.slick-slide{
+    visibility: hidden;
+    position: absolute;
+}
+
+.slick-slide.slick-active{
+    visibility: visible;
+    position: relative;
+    width: auto !important;
+}
+
+.creators {
+position: relative;
+width: 90%;
+display: inline-block;
+}
+
+.creatorIcon {
+    margin: -40px auto 0;
+    display: table;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 65px;
+    
+}
+
+.creatorcheck {
+    position: relative;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.creatorcheck div{
+    color: black !important;
+    font-weight: 500;
+}
+
+.creatorIconImg{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+.creatorImgImg{
+    width: -webkit-fill-available;
+    /* border-radius: 23px; */
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    max-width: 450px;
+}
+
+.creatorImg{
+    height: 200px;
+    overflow: hidden;
+}
+
+.card{
+    border-radius: 25px;
+    max-height: 450px;
+    overflow: auto;
+}
+
+.selectItem{
+    max-width: 300px;
+    width: auto;
+}
+
+.css-1bl8mcx-Control{
+    display: flex;
+}
+
+.css-1domaf0{
+    display: flex;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.creatorGridImg{
+    width: 80px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid white;
+}
+
+.grid-width30{
+    width: 32% ;
+}

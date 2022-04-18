@@ -1,0 +1,21 @@
+.dash-head{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-Img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.react-tabs__tab.react-tabs__tab--selected{
+    font-weight: bold;
+    color: blue;
+}
+
+.react-tabs__tab{
+    font-weight: bold;
+}

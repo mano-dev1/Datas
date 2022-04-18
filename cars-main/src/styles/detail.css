@@ -1,0 +1,28 @@
+.dis-block{
+    display: block;
+}
+
+.dis-none{
+    display: none;
+}
+
+.property-card{
+    border: 1px solid rgb(152 145 145 / 52%);;
+    border-radius: 20px;
+    display: block;
+    position: relative;
+    margin: .25rem;
+}
+
+@media screen and (max-width:1200px){
+    .mob-width400{
+        width: auto !important;
+    }
+}
+
+.detail-list{
+    width: 100%;
+    border: 1px solid rgb(152 145 145 / 52%);
+    padding: 10px;
+    border-radius: 5px;
+}
